@@ -26,10 +26,4 @@ public class CepJpaRepositoryAdapter implements CepRepositoryPort {
                 .map(CepEntity::toDomain);
     }
 
-// TODO    @Override
-//    public Optional<Cep> findByUfAndCidadeAndLogradouro(String uf, String cidade, String logradouro) {
-//        return cepJpaRepository.findByUfAndCidadeAndLogradouro(uf, cidade, logradouro)
-//                .map(CepEntity::toDomain);
-//    }
-
 }

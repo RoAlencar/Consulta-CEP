@@ -10,5 +10,4 @@ import java.util.Optional;
 public interface CepJpaRepository extends JpaRepository<CepEntity, Long> {
 
     Optional<CepEntity> findByCep(String cep);
-    //Optional<Cep> findByUfAndCidadeAndLogradouro(String uf, String Cidade, String Logradouro);
 }

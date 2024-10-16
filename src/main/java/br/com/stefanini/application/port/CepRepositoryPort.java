@@ -8,5 +8,4 @@ public interface CepRepositoryPort {
 
     Cep save(Cep cep);
     Optional<Cep> findByCep(String cep);
-   // Optional<Cep> findByUfAndCidadeAndLogradouro(String uf, String Cidade, String Logradouro);
 }
