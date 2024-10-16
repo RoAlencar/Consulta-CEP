@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Component
 @RequiredArgsConstructor
-public class CepJpaRepositoryPortAdapter implements CepRepositoryPort {
+public class CepJpaRepositoryAdapter implements CepRepositoryPort {
 
     private final CepJpaRepository cepJpaRepository;
 
@@ -26,7 +26,7 @@ public class CepJpaRepositoryPortAdapter implements CepRepositoryPort {
                 .map(CepEntity::toDomain);
     }
 
-//   @Override
+// TODO    @Override
 //    public Optional<Cep> findByUfAndCidadeAndLogradouro(String uf, String cidade, String logradouro) {
 //        return cepJpaRepository.findByUfAndCidadeAndLogradouro(uf, cidade, logradouro)
 //                .map(CepEntity::toDomain);

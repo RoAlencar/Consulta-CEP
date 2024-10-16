@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.com.raxinformatica.app</groupId>
-    <artifactId>Teste Stefanini Santander</artifactId>
+    <artifactId>TesteStefaniniSantander</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Teste Stefanini - Santander</name>
     <description>Teste Stefanini - Santander</description>
@@ -72,6 +72,11 @@
             <groupId>org.jacoco</groupId>
             <artifactId>org.jacoco.agent</artifactId>
             <version>0.8.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
